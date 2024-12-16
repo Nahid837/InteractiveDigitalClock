@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Digital Clock</title>
+  <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+  <div class="clock-container" id="clockContainer">
+   <div class="time" id="time">00:00:00</div>
+   <div class="date" id="date">January 1, 1970</div>
+   <div class="theme-buttons">
+    <button class="light-theme" onclick="setTheme('light')">Light</button>
+    <button class="dark-theme" onclick="setTheme('dark')">Dark</button>
+    <button class="neon-theme" onclick="setTheme('neon')">Neon</button>
+   </div>
+  </div>
+  <script src="script.js"></script>
+ </body>
+</html>
